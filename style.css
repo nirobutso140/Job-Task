@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.countdown_container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+   
+}
+
+.countdown{
+    display: flex;
+    align-items: center;
+}
+
+.countdown_main{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.countdown_content{
+    margin: 0 2px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* .countdown_title{
+    margin-right: 20px;
+} */
+
+.countdown_btn{
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-left: 20px; */
+}
+
+.social_icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.fa{
+    margin: 0 4px;
+}
+
+@media only screen and (max-width: 600px) {
+   .countdown_container{
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .contact_no{
+      margin-bottom: 40px;
+   }
+   .countdown_title{
+       margin-bottom: 15px;
+   }
+   .countdown_btn{
+       margin-top: 15px;
+       cursor: pointer;
+   }
+   .social_icon{
+       margin-top: 40px;
+   }
+   .countdown{
+      flex-direction: column;
+      align-items: center;      
+   }
+}
